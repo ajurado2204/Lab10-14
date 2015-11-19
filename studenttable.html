@@ -2,55 +2,89 @@
 <html>
 <head>
 	<title>Student Table</title>
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 </head>
 <body>
-	<div class="header">
-		<h1>Lab Objectives 11/14</h1>
+	<div class="page-header">
+		<h1>Lab Objectives <small> 11/14 </small></h1>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5">
-				<table class="table table-hover">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<table class="table table-hover" id="mytable">
 			 		<thead>
 			 			<th>First Name</th>
 			 			<th>Last Name</th>
 			 			<th>Email</th>
-			 			<th>X</th>
+			 			<th>+/-</th>
 			 		</thead>
 			 		<tbody>
 			 			<tr>
-							<td>Alejandra</td>
-							<td>Jurado</td>	
-							<td>alejandra.jurado22@gmail.com</td>
-							<td>X</td>
+			 				<td>ale</td>
+			 				<td>ju</td>
+			 				<td>ale@</td>
+			 				<td><button type="submit" value="remove">-</button></td>
 			 			</tr>
 			 			<tr>
-			 				<td>Hbssnjdihd</td>
-			 				<td>Jbijsd</td>
-			 				<td>kjsjfh@gmail.com</td>
-			 				<td>X</td>
+			 				<td>alemjc</td>
+			 				<td>jurad</td>
+			 				<td>ale@sdf</td>
+			 				<td><button type="submit" value="remove">-</button></td>
 			 			</tr>
 			 			<tr>
-			 				<td>Hbssnjdihd</td>
-			 				<td>Jbijsd</td>
-			 				<td>kjsjfh@gmail.com</td>
-			 				<td>X</td>
+			 				<td>ajurado</td>
+			 				<td>jurado</td>
+			 				<td>ale@</td>
+			 				<td><button type="submit" value="remove">-</button></td>
 			 			</tr>
 			 			<tr>
-			 				<td>Hbssnjdihd</td>
-			 				<td>Jbijsd</td>
-			 				<td>kjsjfh@gmail.com</td>
-			 				<td>X</td>
+			 				<td>alejandra</td>
+			 				<td>jurado</td>
+			 				<td>ale@</td>
+			 				<td><button type="submit" value="remove">-</button></td>
+			 			</tr>
+			 			<tr>
+			 				<td>ale</td>
+			 				<td>ju</td>
+			 				<td>ale@</td>
+			 				<td><button type="submit" value="remove">-</button></td>
+			 			</tr>
+			 			<tr>
+			 				<form class="form-inline" id="myform">
+							  <div class="form-group">
+							  	<td>
+							    <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+							    </td>
+							  </div>
+							  <div class="form-group">
+							  	<td>
+							    <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+							    </td>
+							  </div>
+							  <div class="form-group">
+							    <td>
+							    <input type="email" class="form-control" id="Email" placeholder="Email">
+							    </td>
+							  </div>
+							  	<td><button type="submit" value="add">+</button></td>
+							</form>
 			 			</tr>
 			 		</tbody>
 				</table>
 			</div>
-			<div class="col-md-5"></div>
+			<div class="col-md-3"></div>
 		</div>
 	</div>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/events.js"></script>
 </body>
 </html>
